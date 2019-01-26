@@ -1,5 +1,5 @@
-import Backbone from '../node_modules/backbone/backbone.js';
-import _ from '../node_modules/backbone/node_modules/underscore/underscore.js';
+//import Backbone from '../node_modules/backbone/backbone.js';
+//import _ from '../node_modules/backbone/node_modules/underscore/underscore.js';
 import nanoajax from '../node_modules/nanoajax/index.js';
 import config from './config';
 
