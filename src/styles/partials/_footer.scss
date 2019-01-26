@@ -1,0 +1,10 @@
+.footer {
+	padding: 20px 0;
+	background-color: $color-secondary;
+	color: lighten($color-secondary, 33%);
+	font-size: 11px;
+	
+	p {
+		margin: 0;
+	}
+}

@@ -1,0 +1,35 @@
+::selection {
+	background-color: rgba($color-primary, 0.4);
+}
+
+.wrapper {
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content:space-between;
+	align-items: stretch;
+	display: flex;
+}
+
+.hero {
+	padding: 12vh 8vw;
+	flex-grow: 2;
+}
+
+input.hero-input {
+	font-size: 20px;
+	@media (min-width: 760px) {
+		font-size: 7vw;
+	}
+	border: 0;
+	line-height: 1.5;
+	height: auto;
+	color: $color-primary;
+	display: block;
+	width: 100%;
+}
+
+.message-box {
+	font-size: 1rem;
+	color: $color-secondary;
+	height: 2rem;
+}

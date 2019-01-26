@@ -1,0 +1,37 @@
+.navigation {
+  background: $color-tertiary;
+  border-bottom: .1rem solid #d1d1d1;
+  display: block;
+  height: 5.2rem;
+  left: 0;
+  max-width: 100%;
+  width: 100%;
+  z-index: 1;
+
+  .title {
+    color: $color-secondary;
+    position: relative;
+    display: inline;
+    font-size: 1.6rem;
+    line-height: 5.2rem;
+    padding: 0;
+    text-decoration: none;
+  }
+}
+
+.octocat {
+  border: 0;
+  color: $color-tertiary;
+  fill: $color-primary;
+  height: 5.2rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 5.2rem;
+  z-index: 1;
+
+  .octocat-arm,
+  .octocat-body {
+    fill: $color-tertiary;
+  }
+}
